@@ -24,7 +24,3 @@ showPostsSummary = false
     title = "posts"
     url = "/posts"
     weight = 3
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
