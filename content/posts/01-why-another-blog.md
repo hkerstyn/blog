@@ -23,7 +23,7 @@ a different life. Still, why don't you have a look? ^^
 My name is Kerstin (I go by hkerstyn online), 24 years old, and I'm doing my master's degree in maths. I've been mucking around with various game engines for way too many years now (and have very little to show for it :D). Anyways a couple months ago I made a little game called 
 [Good Night, Pen ](https://kerstin02.itch.io/good-night-pen):
 
-![](/images/good_night_pen.gif)
+{{< img "images/good_night_pen.gif" >}}
 
 I challenged myself to make and finish a game in a single day. It's nothing to be impressed by, but it was fun to make. In fact, it made me consider doing a 2D game for a solid couple of weeks because I found making a rudimentary frame-by-frame animated character really enjoyable to make. I did switch back to 3D for reasons I will go into in a future blog post.
 
@@ -44,14 +44,14 @@ Originally, my plan for this week was to create a 3D model of a chair I own.
 I didn't get very far :(.
 
 {{< gallery >}}
-![](/images/chair_photo.jpeg)
+{{< img "images/chair_photo.jpeg" >}}
 
-![](/images/chair_model_incomplete.png)
+{{< img "images/chair_model_incomplete.png" >}}
 {{< /gallery >}}
 
 Even though I didn't finish it yet, working on it has helped me identify a couple of areas I need to improve in as a 3D artist.
 1. *Proportions*. I really struggle with this. One thing that has helped a little is to make a "sketch object", i.e. a really rough version of the mesh that helps me define some "anchor points" in space. Maybe making orthogonals for myself could work as well, but I can't draw.
-![](/images/chair_model_guide.png)
+{{< img "images/chair_model_guide.png" >}}
 2. *Interpretation*. What I mean is that for this object, I mostly just tried to copy it as-is from real life, being a bit lazy on detail. Which is fine for a practise mesh. Eventually, I will need to learn to adapt and combine objects into meshes that are sensible in a game.
 3. *Speed*. Partly I was slow because finding the correct proportions was slow. This will get better with practise.\
 However, I also think that my current workflow is not very efficient.
@@ -61,9 +61,9 @@ Just for reference, here are two 3D models I made in the past. These are all
 the proper finished models that I ever made. So as you can see, I am very much a beginner when it
 comes to 3D art.
 {{< gallery >}}
-![](/images/table.png)
+{{< img "images/table.png" >}}
 
-![](/images/wardrobe.png)
+{{< img "images/wardrobe.png" >}}
 {{< /gallery >}}
 
 ## Future Plans

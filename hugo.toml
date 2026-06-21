@@ -9,6 +9,9 @@ palette = "eink"
 showThemeNotice = false
 showPostsSummary = false
 
+[markup.goldmark.renderer]
+unsafe= true
+
 # Navigation
 [menu]
   [[menu.main]]
@@ -24,7 +27,3 @@ showPostsSummary = false
     title = "posts"
     url = "/posts"
     weight = 3
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
