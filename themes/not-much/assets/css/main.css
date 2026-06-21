@@ -119,11 +119,12 @@ kbd {
 .post article h4,
 .post article h5,
 .post article h6 {
-  font-size: 1.2rem;
+  font-size: 1.4em;
   margin: 24px 0 10px 0;
   font-weight: bold;
 }
 
+/*
 .post article h1::before {
   content: "# ";
   color: var(--secondary);
@@ -152,7 +153,7 @@ kbd {
 .post article h6::before {
   content: "###### ";
   color: var(--secondary);
-}
+} */
 
 .post article a:not(.footnote-backref)::after, footer a::after {
   content: " ↗"
@@ -168,8 +169,12 @@ kbd {
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-  color: #6c757d !important;
+  /* color: #6c757d !important; */
+  --bs-breadcrumb-divider: "|";
+  font-weight: bold;
 }
+
+
 
 .tags a {
   text-decoration: none !important;
@@ -190,8 +195,44 @@ kbd {
 }
 
 img {
-  max-width: 100%;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
 }
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery img {
+  max-width: 100%;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+/* On narrow screens, stack vertically */
+@media (max-width: 800px) {
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery img, img {
+      max-width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+    }
+}
+
+table {
+  margin: 0 auto;
+}
+
 
 figure {
   box-sizing: border-box;
@@ -199,7 +240,7 @@ figure {
   max-width: 100%;
   width: 100%;
   text-align: center;
-}
+} 
 
 figure img {
   max-height: 500px;
@@ -374,4 +415,8 @@ hr {
 
 .giscus {
   padding-top: 1.5rem;
+}
+
+.text-smallcaps {
+  font-variant: small-caps;
 }

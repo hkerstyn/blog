@@ -1,4 +1,26 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'Kerstin`s weekly blog'
+title = "Kerstin's weekly blog"
 theme = 'not-much'
+
+[params]
+theme = "auto"
+palette = "eink"
+showThemeNotice = false
+showPostsSummary = false
+
+# Navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts"
+    weight = 3

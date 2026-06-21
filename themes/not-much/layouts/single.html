@@ -5,15 +5,15 @@
     </div>
     <div class="post">
       <header class="mb-4">
-        <h1 class="text-uppercase">{{ .Title }}</h1>
+        <h1 class="text-smallcaps">{{ .Title }}</h1>
         {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
         {{ $dateHuman := .Date | time.Format ":date_long" }}
         <div aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item small">
-              {{ if .Draft }}
-              <span class="draft-label">DRAFT</span> &#183;
-              {{ end }}
+            {{ if isset .Params "lead" }}
+                <span class="draft-label">{{ .Params.lead }}</span> &#183;
+            {{ end }}
               <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
             </li>
             {{ $lastModMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" }}
@@ -43,7 +43,7 @@
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       {{ partial "post-pagination.html" . }}
       {{ if .Params.comments }}
-        {{ partial "comments.html" . }}
+      {{ partial "comments.html" . }}
       {{ end }}
     </div>
   </div>
