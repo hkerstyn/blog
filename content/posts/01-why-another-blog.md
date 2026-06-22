@@ -11,7 +11,7 @@ while doing gamedev as a hobby**. You know how as a beginner, it is often very d
 - I know how to use blender, but I don't consider myself experienced or particularily talented when it comes to 3D-modeling.
 - I also don't have a background in 2D art.
 - Most of my brain power gets eaten by university and other commitments. As far as gamedev is concerned, I'm not very smart.
-- I'm not a particularily motivated or disciplined person. Sometimes, I have trouble brushing my theeth in the morning.
+- I'm not a particularily motivated or disciplined person. Sometimes, I have trouble brushing my teeth in the morning.
 
 So to sum up, anything I can do, you can probably do too ;).
 

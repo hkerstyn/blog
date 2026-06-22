@@ -32,6 +32,13 @@ nav a:hover, a:hover, .list-post-title a:hover {
   text-decoration: underline !important;
 }
 
+@media (max-width: 720px) {
+
+  nav {
+    margin-left: 20px;
+  }
+}
+
 .list-post-title a {
   text-decoration: none !important;
 }
@@ -350,7 +357,7 @@ li > input[type=checkbox] {
   }
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .breadcrumb {
     flex-direction: column !important;
     --bs-breadcrumb-item-padding-x: 0rem !important;
@@ -360,7 +367,7 @@ li > input[type=checkbox] {
     display: none !important;
     
   }
-}
+} */
 
 #TableOfContents > ul {
   list-style-type: '//  ';
