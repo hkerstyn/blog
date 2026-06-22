@@ -1,5 +1,5 @@
 +++
-date = '2026-06-22T17:37:05+02:00'
+date = '2026-06-22T7:37:05+02:00'
 draft = false
 title = 'Why Yet Another Game Development Blog? | Week 1 of Game Making'
 +++
@@ -20,7 +20,7 @@ Most likely, you will work on a different kind of game and have
 a different life. Still, why don't you have a look? ^^
 
 ## Who am I, anyways?
-My name is Kerstin (I go by hkerstyn online), 24 years old, and I'm doing my master's degree in maths. I've been mucking around with various game engines for way too many years now (and have very little to show for it :D). Anyways a couple months ago I made a little game called 
+My name is Kerstin (hkerstin), 24 years old, and I'm doing my master's degree in maths. I've been mucking around with various game engines for way too many years now (and have very little to show for it :D). Anyways a couple months ago I made a little game called 
 [Good Night, Pen ](https://kerstin02.itch.io/good-night-pen):
 
 {{< img "images/good_night_pen.gif" >}}

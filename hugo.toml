@@ -1,4 +1,4 @@
-baseURL = 'https://hkerstyn.github.io/blog/'
+baseURL = 'https://hkerstin.de/'
 locale = 'en-us'
 title = "Kerstin's weekly blog"
 theme = 'not-much'
