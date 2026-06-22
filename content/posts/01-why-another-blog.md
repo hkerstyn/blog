@@ -1,5 +1,5 @@
 +++
-date = '2026-06-21T17:37:05+02:00'
+date = '2026-06-22T17:37:05+02:00'
 draft = false
 title = 'Why Yet Another Game Development Blog? | Week 1 of Game Making'
 +++
