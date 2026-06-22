@@ -62,17 +62,18 @@ the proper finished models that I ever made. So as you can see, I am very much a
 comes to 3D art.
 {{< gallery >}}
 {{< img "images/table.png" >}}
-
 {{< img "images/wardrobe.png" >}}
 {{< /gallery >}}
 
 ## Future Plans
-I will be updating this blog every week on Sunday. Or earlier than that if I forsee being unavailable on Sunday.
+I will be updating this blog every week on Sunday[^2].
 Inevitably, some weeks, life will get in the way. Still, I'll post an update saying "I didn't do much this week, sorrrry".
 
-Next week, I will start looking into procedural modeling. I'll explain what I mean by that next Sunday.
-My first long-term goal is to hone my skills as a 3D artist and build up an efficient work-flow.
-Maybe I'll build some kind of "demos" along the way.
+Next week, I will start looking into procedural modeling. I'll explain what I mean by that next Sunday.\
+My long-term goal for now is to hone my skills as a 3D artist and build up an efficient work-flow.
+Maybe I'll build some kind of "demos" along the way.\
 Eventually, I will want to team up with some other people (like a gameplay programmer or a sound designer) to make a game together.
 
 [^1]: Such as tracking my own progress, keeping myself accountable, fighting perfectionism by having to put something out even when it's not "ready". But those are all reasons why writing a blog is benefical to *me*.
+
+[^2]: I'm uploading this on a Monday, because yesterday I spent way too long setting up this website.

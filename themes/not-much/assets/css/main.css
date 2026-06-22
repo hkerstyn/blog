@@ -204,16 +204,16 @@ img {
 .gallery {
   display: flex;
   gap: 1rem;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .gallery img {
   max-width: 100%;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-    display: block;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  display: block;
 }
 
 /* On narrow screens, stack vertically */
@@ -359,27 +359,6 @@ li > input[type=checkbox] {
   .breadcrumb-item::before {
     display: none !important;
     
-  }
-}
-
-/* Viewport ≥ 992px: container = 960px */
-@media (min-width: 992px) {
-  .toc {
-    right: calc(50% - 480px - 20px); /* 960px / 2 */
-  }
-}
-
-/* Viewport ≥ 1200px: container = 1140px */
-@media (min-width: 1200px) {
-  .toc {
-    right: calc(50% - 570px - 20px); /* 1140px / 2 */
-  }
-}
-
-/* Viewport ≥ 1400px: container = 1320px */
-@media (min-width: 1400px) {
-  .toc {
-    right: calc(50% - 660px - 20px); /* 1320px / 2 */
   }
 }
 
