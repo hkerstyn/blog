@@ -21,7 +21,7 @@ a different life. Still, why don't you have a look? ^^
 
 ## Who am I, anyways?
 My name is Kerstin (hkerstin), 24 years old, and I'm doing my master's degree in maths. I've been mucking around with various game engines for way too many years now (and have very little to show for it :D). Anyways a couple months ago I made a little game called 
-[Good Night, Pen ](https://kerstin02.itch.io/good-night-pen):
+[Good Night, Pen](https://kerstin02.itch.io/good-night-pen):
 
 {{< img "images/good_night_pen.gif" >}}
 
