@@ -1,12 +1,12 @@
 +++
 date = '2026-06-22T7:37:05+02:00'
 draft = false
-title = 'Why Yet Another Game Development Blog? | Week 1'
+title = 'Why Yet Another Game Making Blog? | Week 1'
 +++
-Why make yet another Game Development blog?
+Why make yet another Game Making Blog?
 Among other reasons[^1],
-**to document how much** (or how little) **a single person can achieve
-while doing gamedev as a hobby**. You know how as a beginner, it is often very difficult to tell what sort of scope is achievable in a given time frame? Let me be your test subject. I would say I make for a good test subject. In terms of ability I'm in the lower to medium range among hobbyists:
+**to document how much** (or how little) **you can achieve
+while doing game art as a hobby**. You know how as a beginner, it is often very difficult to tell what sort of scope is achievable in a given time frame? Let me be your test subject. I would say I make for a good test subject. In terms of ability I'm in the lower to medium range among hobbyists:
 - I can code, but have no experience working on codebases over a couple thousand lines of code.
 - I know how to use blender, but I don't consider myself experienced or particularily talented when it comes to 3D-modeling.
 - I also don't have a background in 2D art.
