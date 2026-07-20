@@ -32,12 +32,6 @@ nav a:hover, a:hover, .list-post-title a:hover {
   text-decoration: underline !important;
 }
 
-@media (max-width: 720px) {
-
-  nav {
-    margin-left: 20px;
-  }
-}
 
 .list-post-title a {
   text-decoration: none !important;
@@ -53,9 +47,12 @@ a:hover {
   color: var(--primary) !important;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .container {
     max-width: 720px !important;
+  }
+  table:not(.gist-data *) {
+    width: 100%;
   }
 }
 
@@ -63,12 +60,6 @@ table:not(.gist-data *) {
   border-collapse: collapse;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-@media (min-width: 1200px) {
-  table:not(.gist-data *) {
-    width: 100%;
-  }
 }
 
 th:not(.gist-data *),
@@ -131,45 +122,6 @@ kbd {
   font-weight: bold;
 }
 
-/*
-.post article h1::before {
-  content: "# ";
-  color: var(--secondary);
-}
-
-.post article h2::before {
-  content: "## ";
-  color: var(--secondary);
-}
-
-.post article h3::before {
-  content: "### ";
-  color: var(--secondary);
-}
-
-.post article h4::before {
-  content: "#### ";
-  color: var(--secondary);
-}
-
-.post article h5::before {
-  content: "###### ";
-  color: var(--secondary);
-}
-
-.post article h6::before {
-  content: "###### ";
-  color: var(--secondary);
-} */
-
-.post article a:not(.footnote-backref)::after, footer a::after {
-  content: " ↗"
-}
-
-.post article a:has(img)::after {
-  content: none !important;
-}
-
 .post .draft-label {
   font-weight: bold;
   color: var(--primary);
@@ -201,7 +153,7 @@ kbd {
 	text-decoration: none !important;
 }
 
-img {
+img, video {
   height: 300px;
   display: block;
   margin: 0 auto;
@@ -223,16 +175,19 @@ img {
   display: block;
 }
 
-/* On narrow screens, stack vertically */
 @media (max-width: 800px) {
     .gallery {
         flex-direction: column;
     }
 
-    .gallery img, img {
+    .gallery img, img, video {
       max-width: 100%;
       max-height: 300px;
       object-fit: contain;
+    }
+
+    nav {
+      margin-left: 10px;
     }
 }
 
@@ -302,12 +257,6 @@ blockquote {
     margin-top: 1rem;
   }
 }
-
-.twitter-tweet, .instagram-media {
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
-
 .post-summary {
   margin: 0;
 }
@@ -319,58 +268,6 @@ ul:has(input[type=checkbox]) {
 
 li > input[type=checkbox] {
   margin-right: 0.2rem;
-}
-
-.toc-title {
-  font-size: smaller;
-}
-
-.toc {
-  font-family: 'Red Hat Mono', serif !important;
-}
-
-/* Viewport ≥ 768px: container = 720px */
-@media (min-width: 768px) {
-  .toc {
-    display: block !important;
-    position: fixed !important;
-    right: calc(50% - 360px - 20px); /* 720px / 2 */
-    margin-right: 1.5rem;
-    opacity: 0.2;
-    /* Opacity Transition */
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-    /* Margin Transition */
-    -webkit-transition: margin 1s ease-in-out;
-    -moz-transition: margin 1s ease-in-out;
-    -ms-transition: margin 1s ease-in-out;
-    -o-transition: margin 1s ease-in-out;
-    transition: margin 1s ease-in-out;
-
-    &:hover {
-      margin-right: 2.3rem;
-      opacity: 1;
-    }
-  }
-}
-
-/* @media (max-width: 767px) {
-  .breadcrumb {
-    flex-direction: column !important;
-    --bs-breadcrumb-item-padding-x: 0rem !important;
-  }
-
-  .breadcrumb-item::before {
-    display: none !important;
-    
-  }
-} */
-
-#TableOfContents > ul {
-  list-style-type: '//  ';
 }
 
 .badge {
@@ -397,10 +294,6 @@ hr {
   &::before {
     content: '― ';
   }
-}
-
-.giscus {
-  padding-top: 1.5rem;
 }
 
 .text-smallcaps {

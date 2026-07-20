@@ -11,7 +11,7 @@ Renders a menu for the given menu ID.
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav aria-label="breadcrumb" class="small navbar navbar-expand-lg">
+  <nav aria-label="breadcrumb" class="small navbar navbar-expand">
       <ol class="breadcrumb fw-bold">
         {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
       </ol>
