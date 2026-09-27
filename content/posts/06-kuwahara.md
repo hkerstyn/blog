@@ -1,6 +1,6 @@
 +++
-date = '2026-09-22T13:21:44+02:00'
-draft = true
+date = '2026-09-27T13:21:44+02:00'
+draft = false
 title = 'Kuwahara Filter | Week 6'
 +++
 The last update was 2 months ago. Yuck!
